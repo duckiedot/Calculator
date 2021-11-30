@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Paragon Calculator" Height="585" Width="400" ResizeMode="NoResize" Icon="obraz_2021_11_30_065612_QYm_icon.ico" Background="#FF485C74">
     <StackPanel>
-        <TextBlock x:Name="OutputText" Height="70" Width="400" Background="#FF354961" Foreground="#FF38CBCB"/>
-        <TextBlock x:Name="Operation" Height="25" Background="#FF354961"/>
+        <TextBlock  x:Name="OutputText" Height="60" Width="397" Background="#FF354961" Foreground="#FF38CBCB" FontSize="48" HorizontalAlignment="Center" TextAlignment="Right" TextDecorations="{x:Null}" FontWeight="Bold" Margin="-3,0,0,0"/>
+        <TextBlock  x:Name="Operation" Height="30" Background="#FF354961" FontSize="24" TextAlignment="Right" Foreground="#FFB6B1B1"/>
 
         <Grid Margin="15">
-            
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
