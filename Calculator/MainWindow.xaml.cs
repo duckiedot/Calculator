@@ -20,9 +20,47 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private bool Inprogress
+        { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ButtonC_Click(object sender, RoutedEventArgs e)
+        {
+            Clear_all();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var inputButton = sender as Button;
+            string buttonValue = Convert.ToString(inputButton.Content);
+            switch (buttonValue)
+            {
+                case "+":
+                case "-":
+                case "/":
+                case "*":
+                    Calc(buttonValue);
+                    break;
+                default:
+                    break;
+            }
+            OutputText.Text += inputButton.Content;
+        }
+
+        private void Clear_all()
+        {
+            OutputText.Text = string.Empty;
+            Operation.Text = string.Empty;
+        }
+
+        private void Calc(string operation)
+        {
+            
         }
     }
 }
