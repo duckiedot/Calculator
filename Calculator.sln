@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccesse\DataAccess.csproj", "{DDDAE6D0-B767-43C8-8D71-598FE68E3189}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorInterface", "Calculator\CalculatorInterface.csproj", "{5B730094-E54A-4109-9E1F-7644EF3090B7}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DDDAE6D0-B767-43C8-8D71-598FE68E3189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDDAE6D0-B767-43C8-8D71-598FE68E3189}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDDAE6D0-B767-43C8-8D71-598FE68E3189}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDDAE6D0-B767-43C8-8D71-598FE68E3189}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B730094-E54A-4109-9E1F-7644EF3090B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B730094-E54A-4109-9E1F-7644EF3090B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B730094-E54A-4109-9E1F-7644EF3090B7}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -95,12 +95,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataAccesse\DataAccess.csproj">
-      <Project>{dddae6d0-b767-43c8-8d71-598fe68e3189}</Project>
-      <Name>DataAccess</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="obraz_2021_11_30_065612_QYm_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
