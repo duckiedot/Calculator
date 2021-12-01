@@ -70,10 +70,10 @@ namespace Calculator
 
         private void Calc(string firstInput, string secondInput, string operation)
         {
-            int first = Convert.ToInt32(firstInput);
-            int second = Convert.ToInt32(secondInput);
+            double first = Convert.ToDouble(firstInput);
+            double second = Convert.ToDouble(secondInput);
 
-            int result = 0;
+            double result = 0;
 
             switch (operation)
             {
