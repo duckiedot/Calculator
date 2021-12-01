@@ -25,7 +25,8 @@ namespace Calculator
         private string SecondInput { get; set; }
         public MainWindow()
         {
-            string dpa = FirstInput;
+            FirstInput = null;
+            SecondInput = null;
             InitializeComponent();
         }
 
@@ -54,7 +55,9 @@ namespace Calculator
                     CalcLogic(buttonValue);
                     OutputText.Text += buttonValue;                
                     break;
-            }  
+            }
+
+            
         }
 
         private void Clear_all()
@@ -102,18 +105,39 @@ namespace Calculator
 
         private void CalcLogic(string buttonValue)
         {
-            if (Operation.Text == string.Empty && Operation.Text == string.Empty)
+            if (SecondInput != null && IsOperationSign(buttonValue))
             {
-                FirstInput += buttonValue;
+                FirstInput = OutputText.Text;
+                SecondInput = null;
             }
             else if (Operation.Text != string.Empty && FirstInput != null)
             {
-                if (SecondInput == null) 
-                { 
-                    OutputText.Text = string.Empty; 
+                if (SecondInput == null)
+                {
+                    OutputText.Text = string.Empty;
+
                 }
                 SecondInput += buttonValue;
             }
+            else //(SecondInput == null)
+            {
+                FirstInput += buttonValue;
+            }
+        }
+        private bool IsOperationSign(string val)
+        {
+            string[] operationSigns = new string[] {"+","-","*","/" };
+
+            foreach (var item in operationSigns)
+            {
+                if (val.Contains(item))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
+
+    
 }
