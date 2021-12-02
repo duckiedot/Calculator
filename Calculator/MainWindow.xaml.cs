@@ -40,6 +40,8 @@ namespace Calculator
             var inputButton = sender as Button;
             string buttonValue = Convert.ToString(inputButton.Content);
 
+            if (buttonValue == "." && OutputText.Text.Contains(".")) return;
+
             switch (buttonValue)
             {
                 case "+":
