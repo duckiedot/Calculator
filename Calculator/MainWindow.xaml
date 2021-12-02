@@ -27,27 +27,27 @@
                 <RowDefinition Height="85"/>
             </Grid.RowDefinitions>
 
-            <Button x:Name="ButtonPl" Click="Button_Click" Grid.Row="0" Grid.Column="0" Content="+" Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="ButtonMi" Click="Button_Click" Grid.Row="0" Grid.Column="1" Content="-" Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="ButtonX" Click="Button_Click" Grid.Row="0" Grid.Column="2" Content="*"  Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="ButtonDiv" Click="Button_Click" Grid.Row="0" Grid.Column="4" Content="/" Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="0" Grid.Column="0" Content="+" Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="0" Grid.Column="1" Content="-" Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="0" Grid.Column="2" Content="*"  Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="0" Grid.Column="4" Content="/" Background="#FF94AAC5" Foreground="White" FontSize="48"></Button>
 
-            <Button x:Name="Button1" Click="Button_Click" Grid.Row="1" Grid.Column="0" Content="1" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button2" Click="Button_Click" Grid.Row="1" Grid.Column="1" Content="2" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button3" Click="Button_Click" Grid.Row="1" Grid.Column="2" Content="3" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="ButtonEq" Grid.Row="1" Click="Button_Click" Grid.Column="3" Grid.RowSpan="4" Content="=" Background="#FF38CBCB" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="1" Grid.Column="0" Content="1" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="1" Grid.Column="1" Content="2" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="1" Grid.Column="2" Content="3" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Click="Button_Click" Grid.Row="1" Grid.Column="3" Grid.RowSpan="4" Content="=" Background="#FF38CBCB" Foreground="White" FontSize="48"></Button>
 
-            <Button x:Name="Button4" Grid.Row="2" Click="Button_Click" Grid.Column="0" Content="4" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button5" Grid.Row="2" Click="Button_Click" Grid.Column="1" Content="5" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button6" Grid.Row="2" Click="Button_Click" Grid.Column="2" Content="6" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="2" Click="Button_Click" Grid.Column="0" Content="4" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="2" Click="Button_Click" Grid.Column="1" Content="5" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="2" Click="Button_Click" Grid.Column="2" Content="6" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
 
-            <Button x:Name="Button7" Grid.Row="3" Click="Button_Click" Grid.Column="0" Content="7" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button8" Grid.Row="3" Click="Button_Click" Grid.Column="1" Content="8" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button9" Grid.Row="3" Click="Button_Click" Grid.Column="2" Content="9" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="3" Click="Button_Click" Grid.Column="0" Content="7" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="3" Click="Button_Click" Grid.Column="1" Content="8" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="3" Click="Button_Click" Grid.Column="2" Content="9" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
 
-            <Button x:Name="ButtonC" Grid.Row="4" Click="ButtonC_Click" Grid.Column="0" Content="C" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="Button0" Grid.Row="4" Click="Button_Click" Grid.Column="1" Content="0" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
-            <Button x:Name="ButtonD" Grid.Row="4" Click="Button_Click" Grid.Column="2" Content="." Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="4" Click="ButtonC_Click" Grid.Column="0" Content="C" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="4" Click="Button_Click"  Grid.Column="1" Content="0" Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
+            <Button  Grid.Row="4" Click="Button_Click"  Grid.Column="2" Content="." Background="#FF2B8CFF" Foreground="White" FontSize="48"></Button>
 
         </Grid>
 
