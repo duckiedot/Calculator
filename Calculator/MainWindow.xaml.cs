@@ -101,6 +101,7 @@ namespace Calculator
             OutputText.Text = Convert.ToString(result);
             FirstInput = Convert.ToString(result);
             SecondInput = null;
+            Operation.Text = null;
         }
 
         private void CalcLogic(string buttonValue)
